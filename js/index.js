@@ -42,7 +42,7 @@ if (signupForm) {
         if (isValid) {
             localStorage.setItem(user.email, JSON.stringify(user));
             alert("Registration Successful!");
-            window.location.href = "SignIn.html";
+            window.location.href = "index.html";
         }
     });
 }
